@@ -5,13 +5,13 @@ console.log("This is value declared in var type before altering:"+""+a);
     console.log("This is value declared in var type after altering:"+""+a);  
 }
 
-let b = 120;
-console.log("This is value declared in var type before altering:"+""+b);  
+let j = 120;
+console.log("This is value declared in var type before altering:"+""+j);  
 {
     let b =7
-    console.log("This is value declared in var type after altering:"+""+b);  
+    console.log("This is value declared in var type after altering:"+""+j);  
 }
-console.log("This is value declared in var type after block altering:"+""+b);  
+console.log("This is value declared in var type after block altering:"+""+j);  
 const c =20;
 console.log("This is value declared in const type:"+""+c); 
 // IF ELSE

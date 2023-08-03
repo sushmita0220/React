@@ -1,2 +1,2 @@
-var a =120
-console.log(a)
+var a =120;
+console.log(a);

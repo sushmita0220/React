@@ -10,6 +10,30 @@ friendly and i feel comfort in asking doubts. I am realy learning alot in this c
     /* *{
         font-family: cursive;
     } */
+    
+    .flex-container{
+            display: flex;
+            background-color: azure;
+        }
+
+        .flex-container > div{
+            background-color:hotpink;
+            font-size: 30px;
+            margin: 10px;
+
+        }
+        
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .grid-item{
+            background-color: rgba(red, green, blue, alpha);
+            border: 1px solid rgba(red, green, blue, alpha);
+            padding: 20px;
+            text-align: center;
+    
     .hello{
         padding-left: 20%;
     }
@@ -20,7 +44,20 @@ friendly and i feel comfort in asking doubts. I am realy learning alot in this c
     #idtag{
         text-shadow:5cm;
     }
-</style>s
+
+</style>
+
+<div class="flex-container">
+    <div>Register</div>
+    <div>About</div>
+    <div>Email</div>
+</div>
+
+<div class = "grid-container">
+    <div class="grid-item">Hello</div>
+    <div class="grid-item">Hi</div>
+</div>
+
 <ol>
 <li>10</li>
 <li>12</li>

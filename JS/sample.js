@@ -8,7 +8,7 @@ console.log("This is value declared in var type before altering:"+""+a);
 let j = 120;
 console.log("This is value declared in var type before altering:"+""+j);  
 {
-    let b =7
+    let j =7
     console.log("This is value declared in var type after altering:"+""+j);  
 }
 console.log("This is value declared in var type after block altering:"+""+j);  
